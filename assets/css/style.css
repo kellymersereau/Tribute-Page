@@ -38,12 +38,12 @@ a:hover {
 }
 
 h1 {
-  font-family: 'Bungee', cursive;
+  font-family: 'Shrikhand', cursive;
   margin-top: 10px;
-  color: rgba(195, 205, 216, 0.9);
+  color: rgba(255, 255, 255, .9);
   font-size: 4.5em;
   text-transform: uppercase;
-  text-shadow: 0 .05em .02em rgba(146, 146, 146, .6);
+  text-shadow: 0 .05em .02em rgba(195, 205, 216, 0.7);
 }
 
 h2 {
@@ -132,8 +132,9 @@ p {
   height: 3.750em;
   margin-left: -1.875em;
   border-radius: 50%;
-  box-shadow: 0 0 0 .25em rgba(255, 255, 255, .7), 0 .125em 0 rgba(0, 0, 0, 0.08), 0 .188em 0 .25em rgba(0, 0, 0, 0.05);
-  background: rgba(201, 148, 48, 0.99);
+  border: rgba(255, 255, 255, 1) 0.2em solid;
+  box-shadow: 0 0 .5em rgba(148, 148, 148, .7), 0 .5em 0 rgba(230, 230, 230, 0.08);
+  background: rgba(240, 205, 77, 0.99);
 }
 
 .flash-img {
@@ -181,7 +182,7 @@ p {
 .cd-read-more {
   float: right;
   padding: .4em .6em;
-  background: rgba(201, 148, 48, 0.6);
+  background: rgba(250, 215, 87, 1);
   color: #000000;
   border-radius: 0.25em;
   text-transform: uppercase;
@@ -201,7 +202,7 @@ p {
   top: 6px;
   float: left;
   padding: .8em 0;
-  color: rgba(195, 205, 216, 0.9);
+  color: rgba(205, 215, 230, 0.9);
 }
 
 
